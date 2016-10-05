@@ -1,6 +1,16 @@
 # generator-generator
 [yeoman generator][yeoman-getting-started-url] that creates a generator project
 
+## installation
+```bash
+npm install -g dan-nl/generator-generator
+```
+
+## use
+```bash
+yo generator
+```
+
 ## license
 [MIT License][mit-license]
 
