@@ -1,0 +1,42 @@
+{
+  "name": "generator-generator",
+  "version": "0.0.0",
+  "description": "yeoman generator that creates a generator project",
+  "main": "index.js",
+  "files": [
+    "app"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-nl/generator-generator.git"
+  },
+  "keywords": [
+    "yeaoman",
+    "yeoman-generator"
+  ],
+  "author": "dan entous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dan-nl/generator-generator/issues"
+  },
+  "homepage": "https://github.com/dan-nl/generator-generator#readme",
+  "dependencies": {
+    "chalk": "1.1.3",
+    "deep-extend": "0.4.1",
+    "generator-coveralls": "git://github.com/dan-nl/generator-coveralls.git#50f70d15e47940c20247a660e1d8ed2c30fab2cd",
+    "generator-eslint-config": "git://github.com/dan-nl/generator-eslint-config.git#18f4ce5667e2b59040cd94bb7eb861a6a9a52b59",
+    "generator-license": "git://github.com/dan-nl/generator-license.git#2b9bb3032ac071e660a86b8e4f4fd9c8afa433e2",
+    "generator-npm-init": "git://github.com/dan-nl/generator-npm-init.git#e86b67c25c9b794145af8486900fb52b9f43799e",
+    "generator-readme": "git://github.com/dan-nl/generator-readme.git#09bb458a785ee147eeb4985ba4035823b66a7881",
+    "generator-tap": "git://github.com/dan-nl/generator-tap.git#68c2965d8e6a2a72ecb7aba0e9e7580548962522",
+    "generator-travis": "git://github.com/dan-nl/generator-travis.git#2a80c16cc14a5fff087d0be95e1568f9028d9e18",
+    "lodash.random": "3.2.0",
+    "yeoman-generator": "0.24.1",
+    "yeoman-helpers": "git://github.com/dan-nl/yeoman-helpers.git#058d579623e31c8b91857cbf8e03349c9299d59f",
+    "yeoman-prompting-helpers": "1.2.7",
+    "yosay": "1.2.0"
+  }
+}
